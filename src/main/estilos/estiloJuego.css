@@ -1,0 +1,49 @@
+/* Estilos generales */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f4f4f9;
+}
+
+/* Estilos para botones */
+.button {
+    -fx-background-color: #3b5998;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #2d4373;
+}
+
+/* Estilos para TextField */
+.text-field {
+    -fx-border-color: #3b5998;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+/* Estilos para Label */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Estilos para TextArea */
+.text-area {
+    -fx-border-color: #3b5998;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+/* Estilos para ImageView */
+.image-view {
+    -fx-border-color: #3b5998;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+}

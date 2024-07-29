@@ -28,6 +28,7 @@
       </Label>
       <TextField fx:id="mostrarPalabra" alignment="CENTER" editable="false" layoutX="519.0" layoutY="294.0" />
       <Label fx:id="intentos" layoutX="586.0" layoutY="138.0" prefHeight="17.0" prefWidth="25.0" />
-      <TextArea fx:id="letrasIntroducidas" editable="false" layoutX="653.0" layoutY="161.0" prefHeight="97.0" prefWidth="200.0" />
+      <TextArea fx:id="letrasIntroducidas" editable="false" layoutX="694.0" layoutY="161.0" prefHeight="97.0" prefWidth="200.0" />
+      <Label layoutX="519.0" layoutY="101.0" text="Limite de errores 6" />
    </children>
 </AnchorPane>
