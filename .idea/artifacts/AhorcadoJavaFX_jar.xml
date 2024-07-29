@@ -1,16 +1,18 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="AhorcadoJavaFX:jar">
+  <artifact name="AhorcadoJavaFX:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/AhorcadoJavaFX_jar</output-path>
-    <root id="archive" name="AhorcadoJavaFX.jar">
-      <element id="module-output" name="AhorcadoJavaFX" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21-mac-aarch64.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21-mac-aarch64.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/21/javafx-controls-21-mac-aarch64.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/21/javafx-base-21-mac-aarch64.jar" path-in-jar="/" />
+    <root id="root">
+      <element id="archive" name="AhorcadoJavaFX.jar">
+        <element id="module-output" name="AhorcadoJavaFX" />
+      </element>
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:mac-aarch64:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:mac-aarch64:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:mac-aarch64:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:mac-aarch64:21" />
     </root>
   </artifact>
 </component>

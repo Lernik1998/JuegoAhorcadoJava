@@ -1,3 +1,7 @@
 Manifest-Version: 1.0
 Main-Class: com.example.ahorcadojavafx.Launcher
+Class-Path: javafx-fxml-21-mac-aarch64.jar javafx-base-21.jar javafx-con
+ trols-21.jar javafx-graphics-21-mac-aarch64.jar javafx-fxml-21.jar java
+ fx-controls-21-mac-aarch64.jar javafx-graphics-21.jar javafx-base-21-ma
+ c-aarch64.jar
 
