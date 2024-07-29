@@ -12,12 +12,14 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1200, 1200);
         stage.setTitle("Juego del ahorcado BY: Lernik Gasparyan!");
-        scene.getStylesheets().add("file:src/main/estilos/estiloJuego.css");
+       /*Tiene que estar el css en la carpeta de resources para que se puedan aplicar los estilos
+       en el momento de ejecuartarse el archivo JAR */
+        scene.getStylesheets().add("com/example/ahorcadojavafx/estiloJuego.css");
         stage.setScene(scene);
         stage.show();
     }
 
     public static void main(String[] args) {
-        launch(args);
+        launch();
     }
 }
